@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alfie Pates</title>
-    <link>http://localhost:1313/</link>
+    <link>http://alfiepates.me/</link>
     <description>Recent content on Alfie Pates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Sat, 18 Jul 2015 21:24:26 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://alfiepates.me/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sample Packs</title>
-      <link>http://localhost:1313/samples/</link>
+      <link>http://alfiepates.me/samples/</link>
       <pubDate>Sat, 18 Jul 2015 21:24:26 +0100</pubDate>
       
-      <guid>http://localhost:1313/samples/</guid>
+      <guid>http://alfiepates.me/samples/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New Site</title>
-      <link>http://localhost:1313/post/newsite/</link>
+      <link>http://alfiepates.me/post/newsite/</link>
       <pubDate>Sat, 18 Jul 2015 02:51:55 +0100</pubDate>
       
-      <guid>http://localhost:1313/post/newsite/</guid>
+      <guid>http://alfiepates.me/post/newsite/</guid>
       <description>&lt;p&gt;So, I finally got round to setting up a proper website for myself. I toyed with the idea of writing something from scratch for a while using something like &lt;a href=&#34;http://getbootstrap.com&#34;&gt;bootstrap&lt;/a&gt; or &lt;a href=&#34;http://getskeleton.com&#34;&gt;skeleton&lt;/a&gt; until I was introduced to &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/a&gt;, a wonderfully simple static site generator.&lt;/p&gt;
 
 &lt;p&gt;In it&amp;rsquo;s most basic form, a static site generator takes content in some kind of markup language, applies a theme, and renders the content to HTML. You can then drop this HTML on a lightweight webserver (I use thttpd) for a very low-footprint website. Static site generators combine the ease of using a CMS with the speed and efficiency of pure static HTML. I chose &lt;code&gt;hugo&lt;/code&gt; in particular due to it&amp;rsquo;s super short build times, support of Markdown and it&amp;rsquo;s built-in webserver.&lt;/p&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://alfiepates.me/about/</link>
       <pubDate>Sat, 18 Jul 2015 02:21:17 +0100</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://alfiepates.me/about/</guid>
       <description>&lt;p&gt;Hey! I&amp;rsquo;m Alfie. I&amp;rsquo;m an audio engineer, hobbyist developer and general internet moron.&lt;/p&gt;
 
 &lt;p&gt;I develop and maintain cmus-lastfm, a last.fm scrobbler for cmus written in ruby.&lt;/p&gt;
@@ -50,10 +50,10 @@
     
     <item>
       <title>License</title>
-      <link>http://localhost:1313/license/</link>
+      <link>http://alfiepates.me/license/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/license/</guid>
+      <guid>http://alfiepates.me/license/</guid>
       <description>
 
 &lt;h3 id=&#34;content-license:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Content license&lt;/h3&gt;

@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://alfiepates.me/</loc>
     <lastmod>2015-07-18T21:24:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/samples/</loc>
+    <loc>http://alfiepates.me/samples/</loc>
     <lastmod>2015-07-18T21:24:26+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/newsite/</loc>
+    <loc>http://alfiepates.me/post/newsite/</loc>
     <lastmod>2015-07-18T02:51:55+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://alfiepates.me/about/</loc>
     <lastmod>2015-07-18T02:21:17+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/license/</loc>
+    <loc>http://alfiepates.me/license/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
