@@ -4,6 +4,7 @@ date = "2015-07-23T20:48:34+01:00"
 description = ""
 keywords = []
 title = "Adventures in Piano Tuning, Pt1"
+tags = ["Piano", "Music"]
 
 +++
 
