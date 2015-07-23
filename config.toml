@@ -1,0 +1,14 @@
+baseurl = "http://alfiepates.me/"
+languageCode = "en-uk"
+title = "Alfie Pates"
+theme = "hyde-x"
+
+
+[author]
+    name = "Alfie Pates"
+
+[params]
+   truncate = false
+   theme = "theme-base-0c layout-reverse"
+   tagline = "Fuck me, that cow's got udders!"
+   github = "http://github.com/alfiepates/"

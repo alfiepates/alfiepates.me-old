@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alfie Pates</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Alfie Pates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 18 Jul 2015 21:24:26 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sample Packs</title>
+      <link>http://localhost:1313/samples/</link>
+      <pubDate>Sat, 18 Jul 2015 21:24:26 +0100</pubDate>
+      
+      <guid>http://localhost:1313/samples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Site</title>
+      <link>http://localhost:1313/post/newsite/</link>
+      <pubDate>Sat, 18 Jul 2015 02:51:55 +0100</pubDate>
+      
+      <guid>http://localhost:1313/post/newsite/</guid>
+      <description>&lt;p&gt;So, I finally got round to setting up a proper website for myself. I toyed with the idea of writing something from scratch for a while using something like &lt;a href=&#34;http://getbootstrap.com&#34;&gt;bootstrap&lt;/a&gt; or &lt;a href=&#34;http://getskeleton.com&#34;&gt;skeleton&lt;/a&gt; until I was introduced to &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/a&gt;, a wonderfully simple static site generator.&lt;/p&gt;
+
+&lt;p&gt;In it&amp;rsquo;s most basic form, a static site generator takes content in some kind of markup language, applies a theme, and renders the content to HTML. You can then drop this HTML on a lightweight webserver (I use thttpd) for a very low-footprint website. Static site generators combine the ease of using a CMS with the speed and efficiency of pure static HTML. I chose &lt;code&gt;hugo&lt;/code&gt; in particular due to it&amp;rsquo;s super short build times, support of Markdown and it&amp;rsquo;s built-in webserver.&lt;/p&gt;
+
+&lt;p&gt;Having now used &lt;code&gt;hugo&lt;/code&gt; for a few days to set up this site, I can say I&amp;rsquo;m 100% on board with the whole concept. I know Markdown pretty much inside out which makes writing new content a breeze and using static HTML as opposed to a dynamic CMS does wonders for both &lt;a href=&#34;https://wpvulndb.com&#34;&gt;security&lt;/a&gt; and page load times. I haven&amp;rsquo;t tested it yet, but I should hopefully be able to setup hugo in a git recieve hook, so that all I need to do in order to update the site is run a &lt;code&gt;git push&lt;/code&gt; from my &lt;code&gt;~/src/alfiepates.me&lt;/code&gt; directory and have the server automatically build the new website. Expect more blog posts about it in the future, as I figure it out.&lt;/p&gt;
+
+&lt;p&gt;In conclusion? Hugo is fucking awesome, you should totally check it out next time you need a static site for a project.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note that the current (as of 18-07-2015) homebrew formula for &lt;code&gt;hugo&lt;/code&gt; isn&amp;rsquo;t the latest version, and doesn&amp;rsquo;t support a lot of themes. In the mean time, grab the &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;binary&lt;/a&gt; and chuck it in your &lt;code&gt;/usr/local/bin&lt;/code&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 18 Jul 2015 02:21:17 +0100</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hey! I&amp;rsquo;m Alfie. I&amp;rsquo;m an audio engineer, hobbyist developer and general internet moron.&lt;/p&gt;
+
+&lt;p&gt;I develop and maintain cmus-lastfm, a last.fm scrobbler for cmus written in ruby.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>http://localhost:1313/license/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/license/</guid>
+      <description>
+
+&lt;h3 id=&#34;content-license:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Content license&lt;/h3&gt;
+
+&lt;p&gt;All non-code content is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-sa/3.0/&#34;&gt;Creative Commons BY-NC-SA&lt;/a&gt;, except where explicitly noted.&lt;/p&gt;
+
+&lt;h3 id=&#34;code-license:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Code license&lt;/h3&gt;
+
+&lt;p&gt;All source code files and snippets found on this blog, unless otherwise explicitly noted, are licensed under the terms below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;Copyright 2015 Alfie Pates
+
+Licensed under the Apache License, Version 2.0 (the &amp;quot;License&amp;quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &amp;quot;AS IS&amp;quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
