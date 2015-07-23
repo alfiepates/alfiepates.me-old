@@ -8,4 +8,4 @@ title = "About Me"
 
 +++
 
-Hey! I'm Alfie. I'm an audio engineer, hobbyist developer and general internet moron.
+Hey! I'm Alfie. I'm an audio engineer, hobbyist developer and general internet moron. This is my website, where I blog about music technology, computers, and the occasional bit of programming.
