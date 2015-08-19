@@ -10,5 +10,8 @@ theme = "hyde-x"
 [params]
    truncate = false
    theme = "theme-base-0c layout-reverse"
-   tagline = "Fuck me, that cow's got udders!"
+   tagline = "Audio and development ramblings"
    github = "http://github.com/alfiepates/"
+
+[taxonomies]
+   tag = "tags"
