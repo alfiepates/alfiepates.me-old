@@ -2,19 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Otherstuffs on Alfie Pates</title>
-    <link>http://alfiepates.me/otherstuff/</link>
+    <link>http://localhost:1313/otherstuff/</link>
     <description>Recent content in Otherstuffs on Alfie Pates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 19 Aug 2015 21:53:32 +0100</lastBuildDate>
-    <atom:link href="http://alfiepates.me/otherstuff/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2015 00:17:59 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/otherstuff/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AlotBot Reference Guide</title>
+      <link>http://localhost:1313/otherstuff/alotbot/</link>
+      <pubDate>Wed, 09 Sep 2015 00:17:59 +0100</pubDate>
+      
+      <guid>http://localhost:1313/otherstuff/alotbot/</guid>
+      <description>
+
+&lt;p&gt;Hey! Here&amp;rsquo;s the (unofficial) reference for &lt;a href=&#34;http://github.com/SN4T14/AlotBot&#34;&gt;SN4T14&amp;rsquo;s AlotBot&lt;/a&gt;, the resident IRC bot of #DataHoarder on Freenode.  AlotBot was originally meant to be a joke, to provide tongue-in-cheek corrections when users typed &amp;ldquo;alot&amp;rdquo; and meant &amp;ldquo;a lot&amp;rdquo;. From there, it spiralled out into the wonderfully useful tool you use today.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: &lt;a href=&#34;http://i.imgur.com/crsoi5U.png&#34;&gt;Testing this bot was real fun&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;plugins:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;Plugins&lt;/h1&gt;
+
+&lt;h2 id=&#34;alot-js-allot-js:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;&lt;code&gt;alot.js&lt;/code&gt; / &lt;code&gt;allot.js&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Corrects users who type &amp;lsquo;alot&amp;rsquo; or &amp;lsquo;allot&amp;rsquo; when they mean &amp;lsquo;a lot&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;### Usage&lt;/p&gt;
+
+&lt;p&gt;Send a message containing the word &amp;lsquo;alot&amp;rsquo; or &amp;lsquo;allot&amp;rsquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alfiepates: i just ate alot of food
+  AlotBot: Oi! alfiepates! &amp;quot;alot&amp;quot; is not a word! &amp;quot;a lot&amp;quot; is the correct term!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;alfiepates: there sure are allot of spelling mistakes in this channel
+  AlotBot: Oi! alfiepates! &amp;quot;allot&amp;quot; is not a word! &amp;quot;a lot&amp;quot; is the correct term!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;xbmc-js:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;&lt;code&gt;xbmc.js&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Makes users aware that the XBMC project is now called Kodi.&lt;/p&gt;
+
+&lt;h3 id=&#34;usage:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Send a message containing the word &amp;lsquo;XBMC&amp;rsquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alfiepates: my HTPC runs XBMC
+   AlotBot: Oi! alfiepates! &amp;quot;XBMC&amp;quot; is the old name! It&#39;s now called &amp;quot;Kodi&amp;quot;!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;zol-js:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;&lt;code&gt;zol.js&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Points users towards &lt;a href=&#34;http://sn4t14.com/zol/&#34;&gt;SN4T14&amp;rsquo;s ZFS on Linux stability rant&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;usage-1:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Send a message starting with &amp;lsquo;AlotBot&amp;rsquo; and containing either &amp;lsquo;ZOL&amp;rsquo; or &amp;lsquo;ZFS on Linux&amp;rsquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alfiepates: AlotBot, tell me about ZOL
+   AlotBot: Here you go: http://sn4t14.com/zol/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;alfiepates: AlotBot, why is ZFS on Linux unstable?
+   AlotBot: Here you go: http://sn4t14.com/zol/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;datahoarderwiki-js:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;&lt;code&gt;datahoarderWiki.js&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Fetches a link to the &lt;a href=&#34;http://reddit.com/r/DataHoarder/wiki&#34;&gt;/r/DataHoarder wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;usage-2:7a7d59b9e798081b0d55d9d01877bf20&#34;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;Send a message starting with &amp;lsquo;AlotBot&amp;rsquo; and containing the phrase &amp;lsquo;datahoarder wiki&amp;rsquo;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alfiepates: AlotBot, where&#39;s the datahoarder wiki at?
+   AlotBot: Here you go: http://reddit.com/r/datahoarder/wiki
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>IRC Code of Conduct</title>
-      <link>http://alfiepates.me/otherstuff/irc-code-of-conduct/</link>
+      <link>http://localhost:1313/otherstuff/irc-code-of-conduct/</link>
       <pubDate>Wed, 19 Aug 2015 21:53:32 +0100</pubDate>
       
-      <guid>http://alfiepates.me/otherstuff/irc-code-of-conduct/</guid>
+      <guid>http://localhost:1313/otherstuff/irc-code-of-conduct/</guid>
       <description>
 
 &lt;ul&gt;

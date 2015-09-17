@@ -12,6 +12,7 @@ theme = "hyde-x"
    theme = "theme-base-0c layout-reverse"
    tagline = "Audio and development ramblings"
    github = "http://github.com/alfiepates/"
+   twitter = "http://twitter.com/alfiepates"
 
 [taxonomies]
    tag = "tags"

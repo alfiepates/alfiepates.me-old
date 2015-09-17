@@ -2,19 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Alfie Pates</title>
-    <link>http://alfiepates.me/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Alfie Pates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 23 Jul 2015 20:48:34 +0100</lastBuildDate>
-    <atom:link href="http://alfiepates.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2015 10:22:10 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Roll your own Mail Server</title>
+      <link>http://localhost:1313/post/diy-mail-server-1/</link>
+      <pubDate>Tue, 15 Sep 2015 10:22:10 +0100</pubDate>
+      
+      <guid>http://localhost:1313/post/diy-mail-server-1/</guid>
+      <description>&lt;p&gt;For the past few years, I&amp;rsquo;ve used outlook.com for my personal e-mail. I&amp;rsquo;ve never been super satisfied with it, but hey, it works.&lt;/p&gt;
+
+&lt;p&gt;Well&amp;hellip; worked. Recently I realised that the outlook.com spam filter had been dropping e-mails before they even reached my inbox.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Adventures in Piano Tuning, Pt1</title>
-      <link>http://alfiepates.me/post/pianotuning1/</link>
+      <link>http://localhost:1313/post/pianotuning1/</link>
       <pubDate>Thu, 23 Jul 2015 20:48:34 +0100</pubDate>
       
-      <guid>http://alfiepates.me/post/pianotuning1/</guid>
+      <guid>http://localhost:1313/post/pianotuning1/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;img/pianotuning/piano1.jpg&#34; alt=&#34;Piano&#34; /&gt;
 &lt;/p&gt;
 
@@ -85,10 +97,10 @@
     
     <item>
       <title>New Site</title>
-      <link>http://alfiepates.me/post/newsite/</link>
+      <link>http://localhost:1313/post/newsite/</link>
       <pubDate>Sat, 18 Jul 2015 02:51:55 +0100</pubDate>
       
-      <guid>http://alfiepates.me/post/newsite/</guid>
+      <guid>http://localhost:1313/post/newsite/</guid>
       <description>&lt;p&gt;So, I finally got round to setting up a proper website for myself. I toyed with the idea of writing something from scratch for a while using something like &lt;a href=&#34;http://getbootstrap.com&#34;&gt;bootstrap&lt;/a&gt; or &lt;a href=&#34;http://getskeleton.com&#34;&gt;skeleton&lt;/a&gt; until I was introduced to &lt;a href=&#34;http://gohugo.io&#34;&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/a&gt;, a wonderfully simple static site generator.&lt;/p&gt;
 
 &lt;p&gt;In it&amp;rsquo;s most basic form, a static site generator takes content in some kind of markup language, applies a theme, and renders the content to HTML. You can then drop this HTML on a lightweight webserver (I use thttpd) for a very low-footprint website. Static site generators combine the ease of using a CMS with the speed and efficiency of pure static HTML. I chose &lt;code&gt;hugo&lt;/code&gt; in particular due to it&amp;rsquo;s super short build times, support of Markdown and it&amp;rsquo;s built-in webserver.&lt;/p&gt;

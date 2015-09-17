@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music on Alfie Pates</title>
-    <link>http://alfiepates.me/tags/music/</link>
+    <link>http://localhost:1313/tags/music/</link>
     <description>Recent content in Music on Alfie Pates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Thu, 23 Jul 2015 20:48:34 +0100</lastBuildDate>
-    <atom:link href="http://alfiepates.me/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Adventures in Piano Tuning, Pt1</title>
-      <link>http://alfiepates.me/post/pianotuning1/</link>
+      <link>http://localhost:1313/post/pianotuning1/</link>
       <pubDate>Thu, 23 Jul 2015 20:48:34 +0100</pubDate>
       
-      <guid>http://alfiepates.me/post/pianotuning1/</guid>
+      <guid>http://localhost:1313/post/pianotuning1/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;img/pianotuning/piano1.jpg&#34; alt=&#34;Piano&#34; /&gt;
 &lt;/p&gt;
 
